@@ -1,12 +1,15 @@
-# Tags: latest, 2.4.2-debian-10-r14, 2.4.2, 2-debian-10, 2
+# Tags: latest, 2.4.2-debian-10-r15, 2.4.2, 2-debian-10, 2
 FROM bitnami/harbor-registryctl:latest
-FROM bitnami/harbor-registryctl:2.4.2-debian-10-r14
+FROM bitnami/harbor-registryctl:2.4.2-debian-10-r15
 FROM bitnami/harbor-registryctl:2.4.2
 FROM bitnami/harbor-registryctl:2-debian-10
 FROM bitnami/harbor-registryctl:2
 
 # Tags: _
 FROM bitnami/harbor-registryctl:_
+
+# Tags: 2.4.2-debian-10-r14
+FROM bitnami/harbor-registryctl:2.4.2-debian-10-r14
 
 # Tags: 2.4.2-debian-10-r13
 FROM bitnami/harbor-registryctl:2.4.2-debian-10-r13
@@ -98,6 +101,3 @@ FROM bitnami/harbor-registryctl:2.4.1-debian-10-r74
 
 # Tags: 2.4.1-debian-10-r73
 FROM bitnami/harbor-registryctl:2.4.1-debian-10-r73
-
-# Tags: 2.4.1-debian-10-r72
-FROM bitnami/harbor-registryctl:2.4.1-debian-10-r72
